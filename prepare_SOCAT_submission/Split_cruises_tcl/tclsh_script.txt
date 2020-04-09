@@ -1,0 +1,31 @@
+
+############# SPLIT FILE BY CRUISE ID/EXPOCODE #############
+
+Open tclsh86
+
+Write:
+
+cd D:/MyFiles/Projects/SOCAT3/Split_file_script
+tclsh_split_cruises_windows2.tcl [file] [outdir] [separator] [EXPO Code Col]
+
+
+tcl starts counting from 0!!
+
+eg.:
+tclsh split_cruises_windows.tcl D:/Dropbox/SOCATv3_and_Data_from_CDIAC_20140318(1)/UploadOctober2014/colibri_Feb2014/zz1_work_space_all.txt D:/Dropbox/SOCATv3_and_Data_from_CDIAC_20140318(1)/UploadOctober2014/colibri_Feb2014/ '\t' 1
+
+tclsh split_cruises_windows.tcl D:/data_all.txt D:/ '\t' 0
+
+
+
+
+
+
+
+
+
+
+
+D:/work_space_split/ALAWAI_158W_21N/zz1_imp.txt D:/work_space_split '\t' 1
+
+
